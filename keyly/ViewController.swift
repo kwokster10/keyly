@@ -54,6 +54,8 @@ class PianoViewController: UIViewController, UICollectionViewDelegate, UICollect
 }
 
 class OctaveCollectionViewCell : UICollectionViewCell {
+    // create a stack of set number of AVAudioPlayer or check out below
+    // http://stackoverflow.com/questions/37033036/swift-2-avaudioplayers-to-play-multiple-sounds-at-once
     var audioPlayer = AVAudioPlayer()
     var octave: Int = 0
     @IBOutlet weak var CKey: UIButton!
@@ -79,8 +81,8 @@ class OctaveCollectionViewCell : UICollectionViewCell {
 
         self.audioPlayer.prepareToPlay()
         self.audioPlayer.play()
-        
     }
 }
+
 
 

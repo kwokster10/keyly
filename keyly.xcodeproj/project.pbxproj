@@ -198,12 +198,12 @@
 				0BB75B301E44D79C00D01245 /* Assets.xcassets */,
 				0BB75B321E44D79C00D01245 /* LaunchScreen.storyboard */,
 				0BB75B351E44D79C00D01245 /* Info.plist */,
-				0BB75B3B1E44FD1800D01245 /* 2489__jobro__piano-ff */,
+				0BB75B3B1E44FD1800D01245 /* piano-ff-soundbytes */,
 			);
 			path = keyly;
 			sourceTree = "<group>";
 		};
-		0BB75B3B1E44FD1800D01245 /* 2489__jobro__piano-ff */ = {
+		0BB75B3B1E44FD1800D01245 /* piano-ff-soundbytes */ = {
 			isa = PBXGroup;
 			children = (
 				0BB75B3C1E44FD1800D01245 /* piano-ff-0.wav */,
@@ -276,6 +276,7 @@
 				0BB75B7F1E44FD1800D01245 /* piano-ff-67.wav */,
 				0BB75B801E44FD1800D01245 /* _readme_and_license.txt */,
 			);
+			name = "piano-ff-soundbytes";
 			path = "2489__jobro__piano-ff";
 			sourceTree = "<group>";
 		};
